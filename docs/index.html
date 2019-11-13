@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lovely Cakes</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class = "wrapper">
+		<div class = "header">
+			<div class="menu">
+				<img src="pics/logo.jpg?124" class = "logo">
+				<div class = "menu-shop">
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href ="main.html" class="current">SHOP</a></li>
+						<li class = "third"><a href="">BLOG</a></li>
+						<li><a href="">CONTACT</a></li>
+					</ul>
+					<div class = "cart">
+						<img src="pics/cart.png" style = "width:50px;" id = "mdlBtn">
+						<p id = "numb">0</p>
+					</div>
+				</div>
+			</div>
+								<div class="modal" role="dialog" id = "myModal">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="sign modal-title">YOUR ORDER</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<div class = "mod-fl container-fluid" id = "cart-mod">
+									</div>
+								</div>
+								<div class="modal-footer">
+									<p class = "total"></p>
+									<div class = "info" id = "cont">
+								</div>
+									<button type="button" id="buy-order" class="btn btn-secondary" data-dismiss="modal">Buy</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal" role="dialog" id = "prod-descr">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header"">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h2 class="modal-title" id = "p-name"></h2>
+								</div>
+								<div class="modal-body">
+									<div class = "mod-fl container-fluid" id = "p-descr">
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+		</div>
+		<div class = "sel" style = "text-align: center; margin-top: 10px; margin-bottom: 50px;">
+		<select style="display: inline-block; text-align: center;" id = "selection"></select>
+		</div>
+		</select>
+		<div id = "product-list">
+		</div>
+			<div class = "container">
+				<div class = "footer">
+					<div class = "col-md-8 col-md-offset-2 col-sm-12">
+						<div>
+							<img src="pics/heart.png?130">
+						</div>
+						<p>© BILORUS KATERYNA 2019.</p>
+					</div>
+					<div class="social col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-0 col-xs-2 col-xs-offset-5">
+						<a href="https://www.instagram.com/stay.s.t/" target="_blank"><img src="pics/insta.png" style="width:25%;"></a>
+						<a href="https://www.facebook.com/kateryna.bilorus" target="_blank"><img src="pics/fb.png" style="width:25%;"></a>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
