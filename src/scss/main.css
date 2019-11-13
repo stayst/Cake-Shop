@@ -98,6 +98,9 @@ a{
 	font-family: "Open Sans";
 	transition: .3s ease-in;
 }
+#p-name{
+	text-align: center;
+}
 #product-list h1{
 	font-weight: 100;
 	text-decoration: none;

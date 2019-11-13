@@ -79,7 +79,7 @@ function show(){
 				name = data[key]['name'];
 				var out = '<h2>'+name+'</h2>';
 				$('#p-name').html(out);
-				out = '<img class = "item-im" src = "'+data[key]['image_url']+'">';
+				out = '<img class = "item-im sign" src = "'+data[key]['image_url']+'">';
 				out += '<h3>' + data[key]['description']+'</h3>';
 				out += '<span class="price it-price">'+price+'грн</span>';
 				out += '<button class="add-to-cart" data-art="'+data[key]['id']+'">BUY</button>';
